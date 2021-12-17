@@ -33,7 +33,7 @@ Variables can be local or global. Local variables override global variables with
 ### Operators
 
 ```js
-// arithmetic
+  // arithmetic
   var a = 50, b = 100;
   a + b; // addition
   a - b; // subtraction
@@ -56,17 +56,15 @@ Variables can be local or global. Local variables override global variables with
 ```
 
 ```js
-// logical
-<script>
+  // logical
   var a = 1, b = 0;
   a && b; // logical AND
   a || b; // logical OR
   !a; // logical NOT
-</script>
   ```
 
-// bitwise
-<script>
+```js
+  bitwise
   var a = 5, b = 7;
   a & b; // bitwise AND
   a | b; // bitwise OR
@@ -75,10 +73,10 @@ Variables can be local or global. Local variables override global variables with
   a << 1; // left shift
   a >> 1; // right shift
   a >>> 1; // right shift with zero
-</script>
+  ```
 
-// assignment
-<script>
+```js
+  // assignment
   var a = 5;
   a += 5; // add and assign
   a -= 5; // subtract and assign
@@ -86,18 +84,18 @@ Variables can be local or global. Local variables override global variables with
   a /= 5; // divide and assign
   a %= 5; // modulus and assign
   // the same logic applies to bitwise operators as well.
-</script>
+  ```
 
-// conditional
-<script>
+```js
+  // conditional
   var x = (condition) ? this_value_if_true : else_this_value ;
-</script>
 
-// FLOW OF CONTROL (almost copy-paste from C/C++ syntax)
+### Flow of control
+  (almost copy-paste from C/C++ syntax)
 
-// if, if else, if else if constructs
-<script>
+  if, if else, if else if constructs
   
+```js
   if (condition) {
     do_this;
   }
@@ -115,12 +113,10 @@ Variables can be local or global. Local variables override global variables with
   } else {
     do_this;
   }
+  ```
 
-</script>
-
-// switch statements
-<script>
-  
+  switch statements
+```js
   switch (expression) {
     case value_1:
       do_this;
@@ -131,12 +127,10 @@ Variables can be local or global. Local variables override global variables with
     default:
       do_this;
   }
+  ```
 
-</script>
-
-// loops
-<script>
-  
+  loops
+```js
   while (condition) {
     do_this;
   }
@@ -152,13 +146,13 @@ Variables can be local or global. Local variables override global variables with
   for (x in object) {
     do_this; // repeat for each element/property in the object
   }
+  ```
 
-</script>
-
-// loop control
-<script>
-
+  loop control
+```js
   break;
   continue;
+  ```
   
-</script>
+  
+  
