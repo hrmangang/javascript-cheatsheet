@@ -14,28 +14,33 @@
    javascipt is case-sensitive.
 */
 
-// VARIABLES & DATA-TYPES
+### Variables & data types
 
+```js
 <script>
   var num; // declaration
   num = 5; // assignment
 </script>
+```
 
 /* variables have to be declared before used, but can hold
    any data type, such as numbers, strings, booleans, etc.
 */
 
+```js
 <script>
   var num = 5;
   typeof(num); // to see its datatype
 </script>
+```
 
 /* variables can be global or local.
    local variables override global variables with the same name.
 */
 
-// OPERATORS
+### Operators
 
+```js
 // arithmetic
 <script>
   var a = 50, b = 100;
@@ -47,6 +52,7 @@
   a++;  // increment
   b++;  // decrement
 </script>
+```
 
 // comparison
 <script>
