@@ -173,5 +173,7 @@ In HTML, the above function can be called as
 ```html
   <input type="button" onclick="fname" value="Click here">
   ```
+
+The above code generates a button whose value is "Click here". When clicked, the function "fname" is invoked.
   
   
