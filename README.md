@@ -21,28 +21,19 @@ Henceforth, the <script> tags are omitted.
 ```js
   var num; // declaration
   num = 5; // assignment
+  typeof(num) // returns its datatype
 ```
 
 /* variables have to be declared before used, but can hold
    any data type, such as numbers, strings, booleans, etc.
 */
-
-```js
-<script>
-  var num = 5;
-  typeof(num); // to see its datatype
-</script>
-```
-
-/* variables can be global or local.
-   local variables override global variables with the same name.
-*/
+  
+Variables can be local or global. Local variables override global variables with the same name.
 
 ### Operators
 
 ```js
 // arithmetic
-<script>
   var a = 50, b = 100;
   a + b; // addition
   a - b; // subtraction
@@ -51,11 +42,10 @@ Henceforth, the <script> tags are omitted.
   a % b; // modulus
   a++;  // increment
   b++;  // decrement
-</script>
 ```
 
-// comparison
-<script>
+```js
+  // comparison
   var a = 50, b = 100;
   a == b; // equal
   a != b; // not equal
@@ -63,8 +53,9 @@ Henceforth, the <script> tags are omitted.
   a < b; // less than
   a >= b; // greater than or equal to
   a <= b; // less than or equal to
-</script>
+```
 
+```js
 // logical
 <script>
   var a = 1, b = 0;
@@ -72,6 +63,7 @@ Henceforth, the <script> tags are omitted.
   a || b; // logical OR
   !a; // logical NOT
 </script>
+  ```
 
 // bitwise
 <script>
