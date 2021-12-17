@@ -8,11 +8,7 @@
   document.write("This is how you can write text");
 </script>
   ```
-
-/* not really necessary to write language and type above.
-   semi-colons are optional but are a good practice.
-   javascipt is case-sensitive.
-*/
+It is not necessary to write **language** and **type** as given above. Also, semi-colons are optional but are a good practice.
 
 Henceforth, the <script> tags are omitted.
 
@@ -23,12 +19,7 @@ Henceforth, the <script> tags are omitted.
   num = 5; // assignment
   typeof(num) // returns its datatype
 ```
-
-/* variables have to be declared before used, but can hold
-   any data type, such as numbers, strings, booleans, etc.
-*/
-  
-Variables can be local or global. Local variables override global variables with the same name.
+Variables have to be declared before used, but can hold any data type, such as numbers, strings, booleans, etc. They can be local or global. Local variables override global variables with the same name.
 
 ### Operators
 
@@ -181,15 +172,27 @@ Functions can also be dynamically defined using **Function()** constructor along
   var fname = new Function("x", "y", "return x*y"); // note the use of string parameters and function body
   ```
   
-An unnamed function can be defined using **function literals**.
+An unnamed function can be defined using **function literals** (given below). Function literals are cool because they are used as expressions rather than as statements.
 ```js
-  var fname = function(parameterss) {
+  var fname = function(parameters) {
                 do_this;
               };
   ```
   
 1. Function defintions can be nested inside other functions. But they can't be put within loops or conditionals.
 2. Function literals, however, can appear within any JavaScript expression.
+
+### Redirection
+  
+(yeah that annoying feature!)
+  
+  The following line puts a link named "Refresh" and when clicked, it refreshes the current page.
+  
+```html
+  <a href="javascript:location.reload(true)">Refresh</a>
+  ```
+  
+  
 
   
   
