@@ -89,6 +89,7 @@ Variables can be local or global. Local variables override global variables with
 ```js
   // conditional
   var x = (condition) ? this_value_if_true : else_this_value ;
+  ```
 
 ### Flow of control
   (almost copy-paste from C/C++ syntax)
