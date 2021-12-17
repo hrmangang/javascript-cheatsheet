@@ -15,7 +15,7 @@ Hope it helps anyone looking for a JS cheatsheet.
   ```
 It is not necessary to write **language** and **type** as given above. Also, semi-colons are optional but are a good practice.
 
-Henceforth, the <script> tags are omitted.
+Henceforth, the script tags will be omitted.
 
 ### Variables & data types
 
