@@ -238,14 +238,27 @@ The keyword **this** is used to refer to the object that has been passed to a fu
   function updateAge(age) {
     this.age = age;
   }
+  
   function person(name, field) {
     this.name = name;
     this.field = field;
     this.updateAge = updateAge; // defining methods
   }
+  
   var obj = new person("Einstein", "Physics"); // person() becomes a constructor
   obj.updateAge(50); // age = 50
   ```
+  
+Put the object as an argument to **with** and refer to its attributes without the object's name and dot.
+  
+  ```js
+  function student(points);
+    with (this) {
+      marks = points; // same as this.marks = points
+    }
+  }
+  ```
+ 
   
   
   
