@@ -176,4 +176,20 @@ In HTML, the above function can be called as
 
 The above code generates a button whose value is "Click here". When clicked, the function "fname" is invoked.
   
+Functions can also be dynamically defined using **Function()** constructor along with **new** operator. It accepts string parameters and the last parameter is the body of the function.
+```js
+  var fname = new Function("x", "y", "return x*y"); // note the use of string parameters and function body
+  ```
+  
+An unnamed function can be defined using **function literals**.
+```js
+  var fname = function(parameterss) {
+                do_this;
+              };
+  ```
+  
+1. Function defintions can be nested inside other functions. But they can't be put within loops or conditionals.
+2. Function literals, however, can appear within any JavaScript expression.
+
+  
   
