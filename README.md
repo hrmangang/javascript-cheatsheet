@@ -42,9 +42,7 @@ Variables can be local or global. Local variables override global variables with
   a % b; // modulus
   a++;  // increment
   b++;  // decrement
-```
 
-```js
   // comparison
   var a = 50, b = 100;
   a == b; // equal
@@ -53,17 +51,13 @@ Variables can be local or global. Local variables override global variables with
   a < b; // less than
   a >= b; // greater than or equal to
   a <= b; // less than or equal to
-```
-
-```js
+        
   // logical
   var a = 1, b = 0;
   a && b; // logical AND
   a || b; // logical OR
   !a; // logical NOT
-  ```
-
-```js
+  
   // bitwise
   var a = 5, b = 7;
   a & b; // bitwise AND
@@ -73,9 +67,7 @@ Variables can be local or global. Local variables override global variables with
   a << 1; // left shift
   a >> 1; // right shift
   a >>> 1; // right shift with zero
-  ```
-
-```js
+  
   // assignment
   var a = 5;
   a += 5; // add and assign
@@ -84,9 +76,7 @@ Variables can be local or global. Local variables override global variables with
   a /= 5; // divide and assign
   a %= 5; // modulus and assign
   // the same logic applies to bitwise operators as well.
-  ```
-
-```js
+  
   // conditional
   var x = (condition) ? this_value_if_true : else_this_value ;
   ```
