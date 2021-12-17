@@ -197,6 +197,11 @@ An unnamed function can be defined using **function literals** (given below). Fu
   <a href="javascript:location.reload(true)">Refresh</a>
   ```
   
+  For an auto refresh after 10 seconds (say), use the following function.
+```js
+  setTimeout("location.reload(true);", 10);
+  ```
+  
   
 
   
