@@ -64,7 +64,7 @@ Variables can be local or global. Local variables override global variables with
   ```
 
 ```js
-  bitwise
+  // bitwise
   var a = 5, b = 7;
   a & b; // bitwise AND
   a | b; // bitwise OR
@@ -140,7 +140,7 @@ Variables can be local or global. Local variables override global variables with
     do_this;
   } while (condition);
 
-  for (init, test, update) {
+  for (init; condition; update) {
     do_this;
   }
 
@@ -151,9 +151,37 @@ Variables can be local or global. Local variables override global variables with
 
   loop control
 ```js
-  break;
-  continue;
+  break; // terminate the current loop
+  continue; // skip to the next iteration
+  
+  // one can also use labels
+  
+  outer: // a label
+  for (var i = 0; i < 10; i++) {
+    do_this;
+    inner: // another label
+    for (var j = 0; j < 10; j++) {
+      do_this;
+      if (condition) break inner; // same as break;
+      if (condition) break outer;
+      if (condition) continue inner; // same as continue;
+      if (condition) continue outer;
+      }
+  }
   ```
   
+### Functions
+  
+```js
+  function fname(parameters) {
+    do_this;
+    return value;
+  }
+  ```
+  
+In HTML, the above function can be called as
+```html
+  <input type="button" onclick="fname" value="Click here">
+  ```
   
   
