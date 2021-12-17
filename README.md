@@ -1,4 +1,9 @@
-## JavaScript CheatSheet by Ronald Mangang
+## JavaScript CheatSheet
+
+Compiled and edited by Ronald Mangang.
+Hope it helps anyone looking for a JS cheatsheet.
+
+(it's still under development)
 
 ### Basics
 
