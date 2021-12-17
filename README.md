@@ -3,10 +3,8 @@
 ### Basics
 
 ```js
-<script language="javascript" type="text/javascript">
   // javascript code.
   document.write("This is how you can write text");
-</script>
   ```
 
 /* not really necessary to write language and type above.
