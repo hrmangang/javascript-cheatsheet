@@ -167,7 +167,7 @@ Variables have to be declared before used, but can hold any data type, such as n
   
 In HTML, the above function can be called as
 ```html
-  <input type="button" onclick="fname" value="Click here">
+  <input type="button" onclick="fname(arguments);" value="Click here">
   ```
 
 The above code generates a button whose value is "Click here". When clicked, the function "fname" is invoked.
@@ -191,16 +191,38 @@ An unnamed function can be defined using **function literals** (given below). Fu
   
 (yeah that annoying feature!)
   
-  The following line puts a link named "Refresh" and when clicked, it refreshes the current page.
+The following line puts a link named "Refresh" and when clicked, it refreshes the current page.
   
 ```html
   <a href="javascript:location.reload(true)">Refresh</a>
   ```
   
-  For an auto refresh after 10 seconds (say), use the following function.
+For an auto refresh after 10 seconds (say), use the following function.
 ```js
-  setTimeout("location.reload(true);", 10);
+  setTimeout("location.reload(true);", 10); 
   ```
+  
+To redirect to some URL, use the following function.
+```js
+  window.location = "https://github.com/ronaldmangang"';
+  ```
+### Dialog box
+  
+Dialog boxes can be displayed in events. There are three main types.  
+  
+```js
+  // alert dialog box
+  alert("Warning!"); // displays the text
+  
+  // prompt dialog box
+  var val = prompt("Enter name: ", "your name here"); // the first parameter is the label to be displayed in the text box, the second parameter is the default string to display in the text box
+  // val will hold the string entered by the user.
+  
+  // confirmation dialog box
+  var val = confirm("Are you sure?"); // returns true if user clicks OK, false otherwise
+  ```
+  
+
   
   
 
