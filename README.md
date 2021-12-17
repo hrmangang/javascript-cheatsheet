@@ -3,7 +3,7 @@
 ### Basics
 
 ```js
-<script language="javascript" type="text/javascript>
+<script language="javascript" type="text/javascript">
   // javascript code.
   document.write("This is how you can write text");
 </script>
