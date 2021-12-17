@@ -5,6 +5,6 @@
 ```js
 <script>
   javascript code goes here.
-</script>
+<\script>
 ```
 
