@@ -259,7 +259,44 @@ Put the object as an argument to **with** and refer to its attributes without th
   }
   ```
   
+### Arrays
+  
+Array methods
+```js
+  arr_1.concat(arr_2, arr_3) // returns concatenated array of arr_1, arr_2 and arr_3
+  ```
+  
+TO BE WRITTEN LATER...
+  
+### Exception handling
+  
+```js
+  try {
+    // try_running_this_code;
+  } catch (e) {
+    // do_this_if_exception_occurs;
+    document.write(e.description) // writes the description of the exception occured
+  } finally { // optional
+    // do_this_regardless_of_exception_occuring;
+  }
+  ```
+  
+To raise exceptions (both built-in and user-defined), use **throw** statement. Try putting throw statement anywhere inside the try block (maybe inside a function).
+  
+```js
+  try {
+    if (condition) {
+      throw("some funny error");
+    } else {
+      do_this;
+    }
+  } catch (e) {
+    document.write(e)
+  }
+  ```
+  
 ### 
+  
   
   
 
