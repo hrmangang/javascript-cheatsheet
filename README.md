@@ -222,7 +222,32 @@ Dialog boxes can be displayed in events. There are three main types.
   var val = confirm("Are you sure?"); // returns true if user clicks OK, false otherwise
   ```
   
+### Objects
+  
+The **new** operator followed by a constructor method is used to create objects.
+  
+```js
+  var person = new Object();
+  person.name = "Einstein"; // defining properties (attributes) of the object
+  person.field = "Physics";
+  ```
 
+The keyword **this** is used to refer to the object that has been passed to a function.
+  
+```js
+  function updateAge(age) {
+    this.age = age;
+  }
+  function person(name, field) {
+    this.name = name;
+    this.field = field;
+    this.updateAge = updateAge; // defining methods
+  }
+  var obj = new person("Einstein", "Physics"); // person() becomes a constructor
+  obj.updateAge(50); // age = 50
+  ```
+  
+  
   
   
 
