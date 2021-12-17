@@ -215,7 +215,7 @@ Dialog boxes can be displayed in events. There are three main types.
   alert("Warning!"); // displays the text
   
   // prompt dialog box
-  var val = prompt("Enter name: ", "your name here"); // the first parameter is the label to be displayed in the text box, the second parameter is the default string to display in the text box
+  var val = prompt("Enter name: ", "your name here"); // the first parameter is the label, the second parameter is the default string to be displayed in the text box
   // val will hold the string entered by the user.
   
   // confirmation dialog box
