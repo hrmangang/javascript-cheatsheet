@@ -3,8 +3,10 @@
 ### Basics
 
 ```js
+<script language="javascript" type="text/javascript">
   // javascript code.
   document.write("This is how you can write text");
+</script>
   ```
 
 /* not really necessary to write language and type above.
@@ -12,13 +14,13 @@
    javascipt is case-sensitive.
 */
 
+Henceforth, the <script> tags are omitted.
+
 ### Variables & data types
 
 ```js
-<script>
   var num; // declaration
   num = 5; // assignment
-</script>
 ```
 
 /* variables have to be declared before used, but can hold
