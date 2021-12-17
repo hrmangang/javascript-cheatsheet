@@ -1,8 +1,10 @@
-## JavaScript CheatSheet by Ronald Mangang
+# JavaScript CheatSheet by Ronald Mangang
+
+## Basics
 
 ```js
 <script>
   javascript code goes here.
-</scrip>
+</script>
 ```
 
