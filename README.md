@@ -325,6 +325,7 @@ In the HTML, write
     <img name="theImage" src="images/original.gif" </img></a>
   ```
   
+### 
 
 
   
