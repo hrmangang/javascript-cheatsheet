@@ -295,10 +295,41 @@ To raise exceptions (both built-in and user-defined), use **throw** statement. T
   }
   ```
   
-### 
+### Animation
+
+```js
+  setTimeout(function, t); // calls function after t milliseconds from now
+  setInterval(function, t); // calls function after every t milliseconds
+  clearTimeout(setTimeout_variable); // clears any timer set by setTimeout()
   
-  
+  // set the position of a DOM object anywhere on the screen
+  object.style.left = d; // set distance (d) in pixels or points from left edge of the screen
+  object.style.top = d; // set distance (d) in pixes or points from top edge of the screen
+  ```
+ 
+The following is a code that changes a picture to another when mouse hovers over it and then changes back to original image when mouse moves away from it.
+
+```js
+  if (document.images) { // check if images are present
+    var img_1 = new Image();
+    img_1.src = "/images/original.gif";
+    var img_2 = new Image();
+    img_2.src = "/images/new.gif";
+  }
+  ```
+In the HTML, write
+
+```html
+  <a href="#" onMouseOver="document.theImage.src=img_2.src;"
+              onMouseOut="document.theImage.src=img_1.src;">
+    <img name="theImage" src="images/original.gif" </img></a>
+  ```
   
 
   
   
+
+
+
+
+
