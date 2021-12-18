@@ -309,7 +309,7 @@ To raise exceptions (both built-in and user-defined), use **throw** statement. T
  
 The following is a code that changes a picture to another when mouse hovers over it and then changes back to original image when mouse moves away from it.
 
-```js
+```javascript
   if (document.images) { // check if images are present
     var img_1 = new Image();
     img_1.src = "/images/original.gif";
@@ -325,6 +325,7 @@ In the HTML, write
     <img name="theImage" src="images/original.gif" </img></a>
   ```
   
+
 
   
   
